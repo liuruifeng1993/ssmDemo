@@ -3,6 +3,8 @@
 
 创建数据库和表
 CREATE DATABASE `ssmdemo` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '用户ID',
   `email` varchar(255) NOT NULL COMMENT '用户邮箱',
